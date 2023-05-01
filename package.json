@@ -1,14 +1,34 @@
 {
   "name": "ts-nomp",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "CSS Library",
+  "homepage": "https://github.com/NateAyye/ts-nomp#readme",
+  "bugs": {
+    "url": "https://github.com/NateAyye/ts-nomp/issues",
+    "email": "nathanacuevas97@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NateAyye/ts-nomp.git"
+  },
   "private": false,
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "/dist"
+  ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "@NateAyye:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "dev": "vitest",
@@ -18,8 +38,13 @@
     "ci": "npm run lint && npm run test && npm run build",
     "release": "npm run lint && npm run test && npm run build && changeset publish"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "React",
+    "components",
+    "styled-components",
+    "typescript"
+  ],
+  "author": "Nathan Cuevas <nathanacuevas97@gmail.com> (https://github.com/NateAyye/)",
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.26.1",

@@ -1,5 +1,11 @@
 # ts-nomp
 
+## 0.0.8
+
+### Patch Changes
+
+- Setup Github package Release and also fixed some settings files
+
 ## 0.0.7
 
 ### Patch Changes
