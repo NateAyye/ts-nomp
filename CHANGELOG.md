@@ -1,5 +1,11 @@
 # ts-nomp
 
+## 0.0.4
+
+### Patch Changes
+
+- d351a6b: Added License File
+
 ## 0.0.3
 
 ### Patch Changes
