@@ -1,5 +1,11 @@
 # ts-nomp
 
+## 0.0.7
+
+### Patch Changes
+
+- Testing out my first React Button
+
 ## 0.0.6
 
 ### Patch Changes
