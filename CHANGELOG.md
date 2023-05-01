@@ -1,5 +1,11 @@
 # ts-nomp
 
+## 0.0.3
+
+### Patch Changes
+
+- a22dfee: changed to public package
+
 ## 0.0.2
 
 ### Patch Changes
