@@ -2,10 +2,14 @@
   "name": "ts-nomp",
   "version": "0.0.1",
   "description": "CSS Library",
+  "private": false,
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vitest",
     "test": "vitest run",
